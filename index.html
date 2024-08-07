@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library | Made By Huzaifa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assests.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="current_msg">
+            <p>added to whishlist</p>
+        </div>
+
+        <div class="side_bar">
+            <div id="closing_logo" class="logo">
+                <h1>Readify</h1>
+                <img src="svgs/logo.svg" alt="">
+            </div>
+            <div class="menu">
+                <div id="Library" class="selection">
+                    <p>Library</p>
+                </div>
+                <div id="Borrowed" class="selection">
+                    <p>Borrowed</p>
+                </div>
+                <div id="borrowing_history" class="selection">
+                    <p>Borrowing History</p>
+                </div>
+                <div id="WishList" class="selection">
+                    <p>WishList</p>
+                </div>
+              
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <div id="opening_logo" class="logo secondary_logo">
+                    <h1>Readify</h1>
+                    <img src="svgs/logo.svg" alt="">
+                </div>
+                <div class="serach_bar">
+                    <button id="searchButton"><img src="svgs/search.svg" alt=""></button>
+                    <input type="text" id="searchInput" placeholder="Enter book title or author">
+                </div>
+                <div class="user_profile">
+                    <div class="text">
+                        <h1>UserName</h1>
+                        <p>Standard Account</p>
+                    </div>
+                    <button id="secondary_searchButton"><img src="svgs/search.svg" alt=""></button>
+
+                    <img src="svgs/profile.svg" alt="">
+                </div>
+            </div>
+            <div class="sub_header">
+                <button id="filter-btn">Filter</button>
+
+
+            </div>
+            <div class="content">
+            </div>
+            <div class="category_bar">
+                <h1>Select Category</h1>
+                <button class="clearFilters">Clear</button>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="fiction" name="category">
+                    <label for="fiction">Fiction</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="non-fiction" name="category">
+                    <label for="non-fiction">Non-Fiction</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="personal-development" name="category">
+                    <label for="personal-development">Personal Development</label>
+                </div>
+                
+                <div class="category">
+                    <input type="radio" class="category_btn" id="biography" name="category">
+                    <label for="biography">Biography</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="children" name="category">
+                    <label for="children">Children</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="comics" name="category">
+                    <label for="comics">Comics</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="cookbooks" name="category">
+                    <label for="cookbooks">Cookbooks</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="fantasy" name="category">
+                    <label for="fantasy">Fantasy</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="history" name="category">
+                    <label for="history">History</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="horror" name="category">
+                    <label for="horror">Horror</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="mystery" name="category">
+                    <label for="mystery">Mystery</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="romance" name="category">
+                    <label for="romance">Romance</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="sci-fi" name="category">
+                    <label for="sci-fi">Sci-Fi</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="thriller" name="category">
+                    <label for="thriller">Thriller</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="young-adult" name="category">
+                    <label for="young-adult">Young Adult</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="self-help" name="category">
+                    <label for="self-help">Self-Help</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="health" name="category">
+                    <label for="health">Health</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="travel" name="category">
+                    <label for="travel">Travel</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="science" name="category">
+                    <label for="science">Science</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="sports" name="category">
+                    <label for="sports">Sports</label>
+                </div>
+                <div class="category">
+                    <input type="radio" class="category_btn" id="technology" name="category">
+                    <label for="technology">Technology</label>
+                </div>
+                
+               
+            </div>
+            <div class="whishlist_content"></div>
+            <div class="borrowed_content"></div>
+            <div class="borrowingHistory_content">
+
+            </div>
+            <button class="load_more"><img src="svgs/load.svg" alt=""></button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
