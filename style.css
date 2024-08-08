@@ -423,7 +423,7 @@ main {
     width: 250px;
     background-color: #252524;
     position: absolute;
-    right:0;
+    right: 0;
     top: 182px;
     z-index: 1;
     overflow-y: scroll;
@@ -436,19 +436,23 @@ main {
     justify-content: start;
     align-items: center;
 }
-.category_bar h1{
+
+.category_bar h1 {
     font-size: 1.5rem;
     padding: 17px;
 }
+
 .category label {
     color: white;
     font-size: 1rem;
     margin-left: 9px;
 }
-.category input{
+
+.category input {
     margin-left: 20px;
 }
-.clearFilters{
+
+.clearFilters {
     padding: 9px 54px;
     border: none;
     border-radius: 10px;
@@ -456,23 +460,27 @@ main {
     margin: 3px 47px;
     transition: 0.3s;
 }
-.clearFilters:hover{
+
+.clearFilters:hover {
     background-color: #252524;
     color: white;
     border: 2px solid black;
 }
 
 @media screen and (max-width:750px) {
-    .load_more{
+    .load_more {
         right: 50px;
         bottom: 50px;
     }
-    #filter-btn{
+
+    #filter-btn {
         display: block;
     }
-    .category_bar{
+
+    .category_bar {
         right: -250px;
     }
+
     .secondary_logo {
         width: 28%;
 
@@ -572,13 +580,15 @@ main {
 }
 
 @media screen and (max-width:450px) {
-    .whishlist_content{
+    .whishlist_content {
         justify-content: center;
     }
-    .borrowed_content{
+
+    .borrowed_content {
         height: 70vh;
         justify-content: center;
     }
+
     .book_details {
         width: 100%;
         height: 224px;
@@ -653,17 +663,45 @@ main {
 }
 
 @media screen and (max-width:350px) {
-    .content{
-        height: 550px;
+    .current_msg {
+        height: 17px;
+        top: 90px;
     }
-    .main_content{
+
+    .whishlist_content {
+        height: 70vh;
+    }
+
+    .book_details {
+        margin-bottom: 36px;
+    }
+
+    .borrowingHistory_content {
+        height: 70vh;
+    }
+
+    .sub_header {
+        height: 50px;
+    }
+
+    #filter-btn {
+
+        padding: 6px 16px;
+    }
+
+    .content {
+        height: 70vh;
+    }
+
+    .main_content {
         height: 782px;
     }
-    .load_more{
+
+    .load_more {
         right: 14px;
         bottom: 62px;
     }
- 
+
     .detailsAndStatus {
         height: 170px;
     }
