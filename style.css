@@ -653,8 +653,11 @@ main {
 }
 
 @media screen and (max-width:350px) {
+    .content{
+        height: 550px;
+    }
     .main_content{
-        height: 65vh;
+        height: 782px;
     }
     .load_more{
         right: 14px;
