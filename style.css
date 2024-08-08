@@ -463,6 +463,10 @@ main {
 }
 
 @media screen and (max-width:750px) {
+    .load_more{
+        right: 50px;
+        bottom: 50px;
+    }
     #filter-btn{
         display: block;
     }
@@ -568,6 +572,13 @@ main {
 }
 
 @media screen and (max-width:450px) {
+    .whishlist_content{
+        justify-content: center;
+    }
+    .borrowed_content{
+        height: 70vh;
+        justify-content: center;
+    }
     .book_details {
         width: 100%;
         height: 224px;
@@ -630,7 +641,7 @@ main {
     }
 
     .logo {
-        width: 44%;
+        width: 30%;
 
     }
 
@@ -642,6 +653,13 @@ main {
 }
 
 @media screen and (max-width:350px) {
+    .main_content{
+        height: 65vh;
+    }
+    .load_more{
+        right: 14px;
+        bottom: 62px;
+    }
  
     .detailsAndStatus {
         height: 170px;
